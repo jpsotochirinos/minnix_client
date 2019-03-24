@@ -1,0 +1,84 @@
+{
+  "name": "product",
+  "base": "PersistedModel",
+  "strict": "throw",
+  "persisteUndefinedAsNull": true,
+  "trackChanges": true,
+  "mixins": {
+    "TimeStamp": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "guid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "code_bar": {
+      "type": "string"
+    },
+    "suggested_price": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "boolean"
+    },
+    "state": {
+      "type": "boolean"
+    },
+    "view": {
+      "type": "boolean"
+    },
+    "version": {
+      "type": "string"
+    },
+    "popularity": {
+      "type": "number"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "wide": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "category": {
+      "type": "belongsTo",
+      "model": "category",
+      "foreignKey": ""
+    },
+    "impost": {
+      "type": "belongsTo",
+      "model": "impost",
+      "foreignKey": ""
+    },
+    "type": {
+      "type": "belongsTo",
+      "model": "type",
+      "foreignKey": ""
+    },
+    "unity": {
+      "type": "belongsTo",
+      "model": "unity",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

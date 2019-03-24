@@ -1,0 +1,7 @@
+{
+  "name": "unityremote",
+  "base": "unity",
+  "plural": "unity",
+  "trackChanges": false,
+  "enableRemoteReplication": true
+}

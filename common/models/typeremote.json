@@ -1,0 +1,7 @@
+{
+  "name": "typeremote",
+  "base": "type",
+  "plural": "types",
+  "trackChanges": false,
+  "enableRemoteReplication": true
+}

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../node_modules/loopback-ds-timestamp-mixin",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "product": {
+    "dataSource": "db",
+    "public": true
+  },
+  "impost": {
+    "dataSource": "db",
+    "public": true
+  },
+  "category": {
+    "dataSource": "db",
+    "public": true
+  },
+  "unity": {
+    "dataSource": "db",
+    "public": true
+  },
+  "type": {
+    "dataSource": "db",
+    "public": true
+  },
+  "packaging": {
+    "dataSource": "db",
+    "public": true
+  },
+  "categoryremote": {
+    "dataSource": "remote"
+  },
+  "impostremote": {
+    "dataSource": "remote"
+  },
+  "packagingremote": {
+    "dataSource": "remote"
+  },
+  "productremote": {
+    "dataSource": "remote"
+  },
+  "typeremote": {
+    "dataSource": "remote"
+  },
+  "unityremote": {
+    "dataSource": "remote"
+  }
+}

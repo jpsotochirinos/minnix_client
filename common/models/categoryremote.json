@@ -1,0 +1,7 @@
+{
+  "name": "categoryremote",
+  "base": "category",
+  "plural": "categories",
+  "trackChanges": false,
+  "enableRemoteReplication": true
+}

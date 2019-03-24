@@ -1,0 +1,7 @@
+{
+  "name": "productremote",
+  "base": "product",
+  "plural": "products",
+  "trackChanges": false,
+  "enableRemoteReplication": true
+}
