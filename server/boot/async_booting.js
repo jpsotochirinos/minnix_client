@@ -43,10 +43,10 @@ module.exports = function(server) {
           if (conflicts) 
           {
             handleConflicts(conflicts);
-            console.log(conflicts);
+            //console.log(conflicts);
             
           }
-        console.log(cps);
+        //console.log(cps);
         
   
           since.push = cps;
@@ -77,7 +77,7 @@ module.exports = function(server) {
     server.sync = sync;
     function handleConflicts(conflicts) {
       // TODO notify user about the 
-      console.log(conflicts);
+      //console.log(conflicts);
       
     }
   };
