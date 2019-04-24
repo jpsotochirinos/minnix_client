@@ -1,7 +1,7 @@
 {
   "name": "packagingremote",
-  "base": "packaging",
   "plural": "packagings",
+  "base": "packaging",
   "trackChanges": false,
   "enableRemoteReplication": true
 }

@@ -1,7 +1,7 @@
 {
   "name": "impostremote",
-  "base": "impost",
   "plural": "imposts",
+  "base": "impost",
   "trackChanges": false,
   "enableRemoteReplication": true
 }

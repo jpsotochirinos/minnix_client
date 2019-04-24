@@ -37,45 +37,51 @@
     "public": false
   },
   "product": {
-    "dataSource": "db",
+    "dataSource": "mongo_local",
     "public": true
   },
   "impost": {
-    "dataSource": "db",
+    "dataSource": "mongo_local",
     "public": true
   },
   "category": {
-    "dataSource": "db",
+    "dataSource": "mongo_local",
     "public": true
   },
   "unity": {
-    "dataSource": "db",
+    "dataSource": "mongo_local",
     "public": true
   },
   "type": {
-    "dataSource": "db",
+    "dataSource": "mongo_local",
     "public": true
   },
   "packaging": {
-    "dataSource": "db",
+    "dataSource": "mongo_local",
     "public": true
   },
   "categoryremote": {
-    "dataSource": "remote"
+    "dataSource": "mongo_cloud",
+    "public": true
   },
   "impostremote": {
-    "dataSource": "remote"
+    "dataSource": "mongo_cloud",
+    "public": true
   },
   "packagingremote": {
-    "dataSource": "remote"
+    "dataSource": "mongo_cloud",
+    "public": true
   },
   "productremote": {
-    "dataSource": "remote"
+    "dataSource": "mongo_cloud",
+    "public": true
   },
   "typeremote": {
-    "dataSource": "remote"
+    "dataSource": "mongo_cloud",
+    "public": true
   },
   "unityremote": {
-    "dataSource": "remote"
+    "dataSource": "mongo_cloud",
+    "public": true
   }
 }

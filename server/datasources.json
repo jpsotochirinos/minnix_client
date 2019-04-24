@@ -3,19 +3,24 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongodb": {
-    "host": "",
-    "port": 0,
-    "url": "",
-    "database": "",
-    "password": "",
-    "name": "mongodb",
-    "user": "",
+  "mongo_local": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://127.0.0.1:27017/mongo_local",
+    "database": "mongo_local",
+    "name": "mongo_local",
     "connector": "mongodb"
   },
   "remote": {
     "url": "http://192.168.0.12:3000/api",
     "name": "remote",
     "connector": "remote"
+  },
+  "mongo_cloud": {
+    "port": 27017,
+    "url": "mongodb+srv://{{user}}:{{password}}@minnix-a4gc5.mongodb.net/mongo_cloud",
+    "database": "mongo_cloud",
+    "name": "mongo_cloud",
+    "connector": "mongodb"
   }
 }
